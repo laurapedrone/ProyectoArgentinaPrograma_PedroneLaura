@@ -2,7 +2,7 @@
     padding: 20px;
 }
 div{
-    background-color: #a1b5cb;
+    background-color:  #caaacd;
     text-align: center;
 }
 /*Etiqueta nombre*/
@@ -18,13 +18,23 @@ div{
         border-radius: 100%;
         box-shadow: 3px 3px 3px grey;
         left: 3%;
-        top: 650px;
+        top: 600px;
     }
 }
 @media (max-width: 575px){
     #fotodeperfil{
         position: absolute;
-        width: 30%;
+        width: 40%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 3%;
+        top: 620px;
+    }
+}
+@media (max-width: 316px){
+    #fotodeperfil{
+        position: absolute;
+        width: 50%;
         border-radius: 100%;
         box-shadow: 3px 3px 3px grey;
         left: 3%;
