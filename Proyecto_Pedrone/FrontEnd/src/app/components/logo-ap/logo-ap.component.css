@@ -1,0 +1,53 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.redes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 0.5em;
+}
+#logoAP{
+    width: 150px;
+}
+img{
+    width: 30px;
+}
+.btn{
+    border-width: medium;
+    margin: 0.5em;
+}
+
+/*-----Para la vista del celular-----*/
+@media (max-width: 575px){
+.container{
+    flex-direction: column;
+}
+.redes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.redes img{
+    margin: 0.2em;
+}
+}
+
+@media (max-width: 280px){
+    .container{
+        flex-direction: column;
+    }
+    .redes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .redes img{
+        margin: 0.2em;
+    }
+    img{
+        width: 40px;
+    }
+    }

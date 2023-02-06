@@ -1,0 +1,83 @@
+.row{
+    padding: 20px;
+}
+div{
+    background-color:  #caaacd;
+    text-align: center;
+}
+/*Etiqueta nombre*/
+#nombre{
+    font-weight: bold;
+    margin-top: 30%;
+}
+/*Estilo de la foto de perfil*/
+@media (min-width: 576px){
+    #fotodeperfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 3%;
+        top: 600px;
+    }
+}
+@media (max-width: 575px){
+    #fotodeperfil{
+        position: absolute;
+        width: 40%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 31%;
+        top: 650px;
+    }
+}
+@media (max-width: 414px){
+    #fotodeperfil{
+        position: absolute;
+        width: 40%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 31%;
+        top: 720px;
+    }
+}
+@media (max-width: 375px){
+    #fotodeperfil{
+        position: absolute;
+        width: 40%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 31%;
+        top: 720px;
+    }
+}
+@media (max-width: 360px){
+    #fotodeperfil{
+        position: absolute;
+        width: 40%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 31%;
+        top: 720px;
+    }
+}
+@media (max-width: 316px){
+    #fotodeperfil{
+        position: absolute;
+        width: 40%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 30%;
+        top: 750px;
+    }
+}
+@media (max-width: 280px){
+    #fotodeperfil{
+        position: absolute;
+        width: 40%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 30%;
+        top: 800px;
+    }
+}
