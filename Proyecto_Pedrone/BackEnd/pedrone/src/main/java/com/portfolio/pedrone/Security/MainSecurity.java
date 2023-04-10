@@ -7,8 +7,8 @@ package com.portfolio.pedrone.Security;
 
 
 import com.portfolio.pedrone.Security.Service.UserDetailsImp;
+import com.portfolio.pedrone.Security.jwt.AuthTokenFilter;
 import com.portfolio.pedrone.Security.jwt.JwtEntryPoint;
-import com.portfolio.pedrone.Security.jwt.JwtTokenFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -34,8 +34,8 @@ public class MainSecurity{
     JwtEntryPoint jwtEntryPoint;
 
     @Bean
-    public JwtTokenFilter jwtTokenFilter() {
-        return new JwtTokenFilter();
+    public AuthTokenFilter jwtTokenFilter() {
+        return new AuthTokenFilter();
     }
 
     @Bean

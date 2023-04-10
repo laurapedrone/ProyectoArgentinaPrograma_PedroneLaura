@@ -20,8 +20,8 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
 
 @Component
-public class JwtTokenFilter extends OncePerRequestFilter{
-      private final static Logger logger = LoggerFactory.getLogger(JwtProvider.class);
+public class AuthTokenFilter extends OncePerRequestFilter{
+     private final static Logger logger = LoggerFactory.getLogger(JwtProvider.class);
       
       @Autowired
       JwtProvider jwtProvider;
@@ -50,7 +50,6 @@ public class JwtTokenFilter extends OncePerRequestFilter{
             return header.replace("Bearer", "");
         return null;
     }  
-      
       
       
 }
