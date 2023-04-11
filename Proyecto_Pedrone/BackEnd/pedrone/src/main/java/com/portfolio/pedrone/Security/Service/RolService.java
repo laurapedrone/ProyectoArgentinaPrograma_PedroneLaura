@@ -4,7 +4,7 @@
  */
 package com.portfolio.pedrone.Security.Service;
 
-import com.portfolio.pedrone.Security.Entity.Rol;
+import com.portfolio.pedrone.Security.Enums.Entity.Rol;
 import com.portfolio.pedrone.Security.Enums.RolNombre;
 import com.portfolio.pedrone.Security.Repository.IRolRepository;
 import jakarta.transaction.Transactional;

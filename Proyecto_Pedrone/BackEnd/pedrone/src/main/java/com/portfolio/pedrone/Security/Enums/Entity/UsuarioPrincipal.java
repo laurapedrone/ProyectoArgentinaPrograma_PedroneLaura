@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.portfolio.pedrone.Security.Entity;
+package com.portfolio.pedrone.Security.Enums.Entity;
 
 import java.util.Collection;
 import java.util.List;
@@ -80,3 +80,4 @@ public class UsuarioPrincipal implements UserDetails {
     }
 
 }
+

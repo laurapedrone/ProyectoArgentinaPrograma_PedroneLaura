@@ -4,8 +4,8 @@
  */
 package com.portfolio.pedrone.Security.Service;
 
-import com.portfolio.pedrone.Security.Entity.Usuario;
-import com.portfolio.pedrone.Security.Entity.UsuarioPrincipal;
+import com.portfolio.pedrone.Security.Enums.Entity.Usuario;
+import com.portfolio.pedrone.Security.Enums.Entity.UsuarioPrincipal;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

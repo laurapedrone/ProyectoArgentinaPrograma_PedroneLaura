@@ -4,7 +4,8 @@
  */
 package com.portfolio.pedrone.Security.Repository;
 
-import com.portfolio.pedrone.Security.Entity.Rol;
+
+import com.portfolio.pedrone.Security.Enums.Entity.Rol;
 import com.portfolio.pedrone.Security.Enums.RolNombre;
 import java.util.Optional;
 import org.springframework.data.jpa.repository.JpaRepository;

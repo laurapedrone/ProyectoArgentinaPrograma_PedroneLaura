@@ -4,7 +4,7 @@
  */
 package com.portfolio.pedrone.Security.jwt;
 
-import com.portfolio.pedrone.Security.Entity.UsuarioPrincipal;
+import com.portfolio.pedrone.Security.Enums.Entity.UsuarioPrincipal;
 import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.MalformedJwtException;
@@ -36,7 +36,7 @@ public class JwtProvider {
                 .compact();     
     }
     
-    public String getNombreUsuarioToken(String token){
+    public String getNombreUsuarioFromToken(String token){
         return Jwts.parser().setSigningKey(secret).parseClaimsJws(token).getBody().getSubject();
     }
     

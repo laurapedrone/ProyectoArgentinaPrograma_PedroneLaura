@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.portfolio.pedrone.Security.Entity;
+package com.portfolio.pedrone.Security.Enums.Entity;
 
 import com.portfolio.pedrone.Security.Enums.RolNombre;
 import jakarta.persistence.Entity;
@@ -47,5 +47,4 @@ public class Rol {
     public void setRolNombre(RolNombre rolNombre) {
         this.rolNombre = rolNombre;
     }
-    
 }

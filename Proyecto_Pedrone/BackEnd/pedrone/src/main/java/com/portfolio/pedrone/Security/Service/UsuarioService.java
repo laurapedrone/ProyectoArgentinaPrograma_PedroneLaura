@@ -4,7 +4,7 @@
  */
 package com.portfolio.pedrone.Security.Service;
 
-import com.portfolio.pedrone.Security.Entity.Usuario;
+import com.portfolio.pedrone.Security.Enums.Entity.Usuario;
 import com.portfolio.pedrone.Security.Repository.IUsuarioRepository;
 import jakarta.transaction.Transactional;
 import java.util.Optional;

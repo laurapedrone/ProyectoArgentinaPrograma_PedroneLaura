@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.portfolio.pedrone.Security.Entity;
+package com.portfolio.pedrone.Security.Enums.Entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -19,7 +19,7 @@ import java.util.Set;
 
 @Entity
 public class Usuario {
-    @Id
+   @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     @NotNull
@@ -96,5 +96,4 @@ public class Usuario {
         this.roles = roles;
     }
     
-    
-    }
+}

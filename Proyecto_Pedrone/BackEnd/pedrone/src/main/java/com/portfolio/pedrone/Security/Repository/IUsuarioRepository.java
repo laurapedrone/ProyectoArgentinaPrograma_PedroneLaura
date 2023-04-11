@@ -4,7 +4,7 @@
  */
 package com.portfolio.pedrone.Security.Repository;
 
-import com.portfolio.pedrone.Security.Entity.Usuario;
+import com.portfolio.pedrone.Security.Enums.Entity.Usuario;
 import java.util.Optional;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
