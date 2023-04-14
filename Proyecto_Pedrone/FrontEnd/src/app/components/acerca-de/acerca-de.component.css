@@ -9,6 +9,7 @@ div{
 #nombre{
     font-weight: bold;
     margin-top: 30%;
+    font-size: 20px;
 }
 /*Estilo de la foto de perfil*/
 @media (min-width: 576px){
