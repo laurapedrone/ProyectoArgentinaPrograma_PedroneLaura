@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { Experiencia } from 'src/app/model/experiencia';
+import { experiencia } from 'src/app/model/experiencia';
 import { SExperienciaService } from 'src/app/service/s-experiencia.service';
 
 @Component({
@@ -19,7 +19,7 @@ export class NewExperienciaComponent implements OnInit {
   }
 
   onCreate(): void {
-    const expe = new Experiencia(this.nombreE, this.descriptionE);
+    const expe = new experiencia(this.nombreE, this.descriptionE);
     this.sExperiencia.save(expe).subscribe(
       data => {
         alert("Experiencia añadida");

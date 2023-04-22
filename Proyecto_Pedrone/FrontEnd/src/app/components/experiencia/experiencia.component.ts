@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Experiencia } from 'src/app/model/experiencia';
+import { experiencia } from 'src/app/model/experiencia';
 import { SExperienciaService } from 'src/app/service/s-experiencia.service';
 import { TokenService } from 'src/app/service/token.service';
 
@@ -9,7 +9,7 @@ import { TokenService } from 'src/app/service/token.service';
   styleUrls: ['./experiencia.component.css']
 })
 export class ExperienciaComponent implements OnInit{
-  expe: Experiencia[] = [];
+  expe: experiencia[] = [];
   constructor(private sExperiencia: SExperienciaService, private tokenService: TokenService) { }
 
   isLogged = false;

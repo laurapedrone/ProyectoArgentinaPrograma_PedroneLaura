@@ -12,6 +12,6 @@ export class PersonaService {
   //Angular utiliza el Observable para hacer todas las peticiones asincronas
   
   public getPersona(): Observable<persona>{
-    return this.http.get<persona>(this.URL+'traer/perfil')
+    return this.http.get<persona>(this.URL+ 'traer/perfil')
   }
 }
